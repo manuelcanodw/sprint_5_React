@@ -53,7 +53,7 @@ const Card: React.FC<CardProps> = ({
     }
   };
 
-  // Función para manejar el cambio directo de paso
+  
   const handleSetStep = (step: number) => {
     if (!isAnimating) {
       setIsAnimating(true);
@@ -75,7 +75,7 @@ const Card: React.FC<CardProps> = ({
 
   return (
     <div className={`card ${animationClass}`}>
-      {/* Componente de imagen */}
+      {}
       {image && (
         <CardImage 
           image={image}
